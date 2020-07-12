@@ -3,9 +3,9 @@ import {StatusBar} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import DevNavScreen from './Screens/DevNavScreen';
-import MapMasterScreen from './Screens/MapMasterScreen';
-import SchedulerScreen from './Screens/SchedulerScreen';
+import DevNavScreen from './screens/DevNavScreen';
+import MapMasterScreen from './screens/MapMasterScreen';
+import SchedulerScreen from './screens/SchedulerScreen';
 
 export type RootStackParamList = {
   DevNav: {};
